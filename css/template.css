@@ -1,0 +1,1252 @@
+ 
+/*! CSS Used fontfaces */
+ @font-face{
+    font-family:myriad-pro;
+    src:url(https://use.typekit.com/af/187c1b/00000000000000000001709b/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.com/af/187c1b/00000000000000000001709b/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.com/af/187c1b/00000000000000000001709b/27/a?subset_id=2&fvd=i4&v=3) format("opentype");
+    font-weight:400;
+    font-style:italic;
+}
+ @font-face{
+    font-family:myriad-pro;
+    src:url(https://use.typekit.com/af/b9a71c/00000000000000000001709a/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.com/af/b9a71c/00000000000000000001709a/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.com/af/b9a71c/00000000000000000001709a/27/a?subset_id=2&fvd=n4&v=3) format("opentype");
+    font-weight:400;
+    font-style:normal;
+}
+ @font-face{
+    font-family:myriad-pro;
+    src:url(https://use.typekit.com/af/6469e9/00000000000000000001709c/27/l?subset_id=2&fvd=n6&v=3) format("woff2"),url(https://use.typekit.com/af/6469e9/00000000000000000001709c/27/d?subset_id=2&fvd=n6&v=3) format("woff"),url(https://use.typekit.com/af/6469e9/00000000000000000001709c/27/a?subset_id=2&fvd=n6&v=3) format("opentype");
+    font-weight:600;
+    font-style:normal;
+}
+ @font-face{
+    font-family:myriad-pro;
+    src:url(https://use.typekit.com/af/7f6f54/00000000000000000001709d/27/l?subset_id=2&fvd=i6&v=3) format("woff2"),url(https://use.typekit.com/af/7f6f54/00000000000000000001709d/27/d?subset_id=2&fvd=i6&v=3) format("woff"),url(https://use.typekit.com/af/7f6f54/00000000000000000001709d/27/a?subset_id=2&fvd=i6&v=3) format("opentype");
+    font-weight:600;
+    font-style:italic;
+}
+ body,div,span,h1,h2,p,a,small,ol,ul,li,fieldset,form,label,legend,input,article,footer,header,nav,section{
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+    border:0;
+    padding:0;
+    margin:0;
+}
+ p,ul,ol{
+    font-size:1em;
+    line-height:1.75em;
+}
+ article,footer,header,nav,section{
+    display:block;
+}
+ ol,ul{
+    list-style:none;
+}
+ body{
+    font-size:16px;
+    line-height:1.25em;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    font-family:'Helvetica Neue', Arial, Helvetica, 'Segoe UI', sans-serif;
+    color:#333;
+}
+ h1,h2,legend{
+    font-family:'myriad-pro', 'Helvetica Neue', Arial, Helvetica, 'Segoe UI', Sans-serif;
+    font-weight:600;
+    color:#555;
+}
+ h1{
+    font-size:2em;
+    line-height:1.25em;
+    margin-bottom:0.5em;
+}
+ h2{
+    font-size:1.625em;
+    line-height:1.15em;
+    margin-bottom:0.5em;
+}
+ p{
+    margin-bottom:1.5em;
+}
+ a:link{
+    color:#2266ca;
+    text-decoration:none;
+}
+ a:visited{
+    color:#590C5F;
+    text-decoration:none;
+}
+ a:hover,a:focus,a:active{
+    color:#2c2c2c;
+}
+ a:focus{
+    outline:3px solid #eeb92a;
+}
+ small{
+    font-size:0.75em;
+    line-height:1.5em;
+}
+ legend{
+    color:#2c2c2c;
+}
+ input[type="submit"]{
+    cursor:pointer;
+}
+ *{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+ .container{
+    position:relative;
+    width:92%;
+    max-width:1024px;
+    margin:0 auto;
+}
+.content {
+	float:left;
+    padding: 4%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+    .content a {
+        word-break: break-word;
+        text-decoration: underline;
+    }
+section .content.full {
+    width: 100%;
+}
+.sectionhotlinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.subsection {
+    padding: 15px;
+    margin-bottom: 3%;
+    border: solid 1px #cccccc;
+    border-radius:4px;
+}
+ .subsection:hover,.subsection:focus{
+    background-color:#f4f4f4;
+    border-bottom:solid 1px #cccccc;
+}
+ .subsection h2{
+    font-size:18px;
+    color:#2266ca;
+}
+.subsection h2:after {
+    content: "\00A0\00BB";
+}
+ .subsection p{
+    font-size:14px;
+    color:#555555;
+}
+ a.button,.button{
+    display:inline-block;
+    text-decoration:none;
+    cursor:pointer;
+    padding:0.33em 1em 0.33em;
+    border-radius:4px;
+    -webkit-appearance:none;
+}
+ .button.primary{
+    color:#fff;
+    background-color:#008a0e;
+    text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+ .button.primary{
+    font-size:14px;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgba(200, 200, 200, 0.25) rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.25) rgba(200, 200, 200, 0.25);
+}
+ a.button.tertiary,.button.tertiary{
+    color:#dd4400;
+    background-color:transparent;
+    border-color:transparent;
+}
+ .button.primary:hover,.button.primary:focus,.button.primary:active{
+    background-color:#2c2c2c;
+}
+ a.button.tertiary:hover,.button.tertiary:hover,a.button.tertiary:focus,.button.tertiary:focus,a.button.tertiary:active,.button.tertiary:active{
+    text-decoration:underline;
+}
+ .form{
+    float:left;
+    width:100%;
+}
+ .form fieldset{
+    float:left;
+    width:96%;
+    border-width:0 0 1px;
+    border-style:solid;
+    border-color:#e9e9e9;
+    margin-bottom:1.5em;
+}
+ .form fieldset legend{
+    float:left;
+    width:100%;
+    font-size:22px;
+    line-height:1.5em;
+    font-weight:bold;
+    color:#767676;
+    margin-bottom:1.5em;
+}
+ .form fieldset div{
+    width:100%;
+    float:left;
+    margin-bottom:1em;
+}
+ .form fieldset label{
+    display:block;
+    font-size:14px;
+    line-height:2em;
+}
+ .form input[type=text]{
+    display:block;
+    font-size:14px;
+    line-height:1.5em;
+    border:1px solid #ccc;
+    padding:0.33em;
+    border-radius:3px;
+}
+ .form input[type=text]{
+    background-color:#fff;
+    box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition:border linear 0.2s, box-shadow linear 0.2s;
+}
+ .form .large{
+    width:90%;
+}
+ .form input[type=text]:focus{
+    outline:none;
+    border-color:rgba(82, 168, 236, 0.8);
+    box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+ .form input[type=text]:disabled{
+    background-color:#f4f4f4;
+}
+ .accessibility_nfd,.accessibility_nfd a,.accessibility_nfd a:hover,.accessibility_nfd a:visited{
+    position:absolute;
+    left:-999px;
+    z-index:1001;
+}
+ .nfd_top{
+    top:0;
+}
+ .accessibility_nfd a:focus,.accessibility_nfd a:active{
+    border:1px solid #FFFFFF;
+    background-color:#2C2C2C;
+    padding:6px;
+    color:#FFFFFF;
+    min-width:150px;
+    outline:none;
+    text-align:center;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    -moz-box-shadow:2px 2px 5px #5F5F5F;
+    -webkit-box-shadow:2px 2px 5px #5F5F5F;
+    box-shadow:2px 2px 5px #5F5F5F;
+}
+ .nfd_top a:focus,.nfd_top a:active{
+    position:absolute;
+    left:1150px;
+    top:8px;
+}
+ .hidden{
+    position:absolute!important;
+    top:-9999px!important;
+    left:-9999px!important;
+}
+
+
+
+/* ASIDE */
+
+aside {
+    background-color: #fafafa;
+    clear: right;
+    float: left;
+    margin: 0 0 1em 4%;
+    padding: 0.666em;
+	width:92%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+aside ul li {
+    border-bottom: solid 1px #ddd;
+    margin-bottom: 0.75em;
+}
+aside ul li a {
+    display: block;
+}
+
+
+
+#menu {
+    position: inherit;
+    float: left;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: 0.5em center;
+    border-radius: 7px;
+    background-image: url(https://images.static.shropshire.gov.uk/external-template/img/menu-icon.png);
+    padding: 1em 1.7em 1em 3.25em;
+    text-align: center;
+}
+ #menu.closed {
+     background-color: #7456a5;
+}
+ #menu.closed:hover, #menu.closed:focus, #menu.closed:active {
+     background-color: #453462;
+}
+ #menu.open {
+     background-color: #000;
+}
+ #menu-dropdown {
+     position: absolute;
+     width: 100%;
+     top: 3.2em;
+     background-color: #424242;
+     z-index: 10000;
+     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
+}
+ #menu-dropdown.closed {
+     display: none;
+}
+ #menu-dropdown.open {
+     display: block;
+}
+ #menu-dropdown a#back-button{
+     background-image: url(https://images.static.shropshire.gov.uk/external-template/img/circle-back.png);
+     background-position: 3% 50%;
+     background-repeat: no-repeat;
+     opacity: 0.4;
+     padding-left: 3em;
+}
+ #menu-dropdown a#back-button:hover, #menu-dropdown a#back-button:focus {
+     opacity: 1;
+     background-color: #2A79AB;
+}
+ #menu-dropdown ul {
+     font-size: 14px;
+     margin-bottom: 0;
+}
+ #menu-dropdown ul li a {
+     display: block;
+     line-height: 1.5em;
+     color: #fff;
+     border-bottom: 1px solid #333;
+     padding: 1em 1em 1em 2.5em;
+}
+ #menu-dropdown ul li a:hover, #menu-dropdown ul li a:focus {
+     background-color: #333;
+}
+ #menu-dropdown ul li a.current {
+     background-color: #333;
+}
+ #menu-dropdown ul li ul li a:before {
+     content:'\00BB';
+     position: absolute;
+     left: 1em;
+     padding-right: 12px;
+}
+ #menu-category, #menu-service-area, #menu-content{
+     width: 100%;
+     float: left;
+}
+ #menu-dropdown ul li.active a{
+     background-color: #2A79AB;
+}
+ #menu-category li.active a::before, #menu-service-area li.active a::before{
+     content: '';
+     background-image: url(https://images.static.shropshire.gov.uk/external-template/img/arrow-down.png);
+     background-repeat: no-repeat;
+     height:16px;
+     width:16px;
+}
+ #menu-service-area li, #menu-content li{
+     background-color: #555;
+}
+ #menu-dropdown a.menu-homepage:before {
+     content: '\2002';
+     background-image: url(https://images.static.shropshire.gov.uk/external-template/img/home-16x16.png);
+     background-repeat: no-repeat;
+     background-size: 12px;
+     background-position: left;
+}
+ #menu.closed {
+     background-color: #00873f;
+     border-radius:0;
+}
+ #menu.closed:hover, #menu.closed:focus, #menu.closed:active {
+     background-color: #003d5d;
+}
+ #menu.open {
+     background-color: #003d5d;
+     border-radius:0;
+     background-image: url(https://images.static.shropshire.gov.uk/external-template/img/exit.png);
+     background-repeat: no-repeat;
+     background-position: 0.5em center;
+}
+ #menu-service-area li a.external:before {
+     content: url(https://images.static.shropshire.gov.uk/external-template/img/icon-external-link.png);
+     padding-right: 5px;
+}
+ #menu-dropdown ul li a.cta-contact {
+     float: left;
+     width: 100%;
+     color: #fff;
+     background-image: url(https://images.static.shropshire.gov.uk/external-template/img/phone.png);
+     background-repeat:no-repeat;
+     background-position:10% 50%;
+     background-size: 16px 16px;
+     border:none;
+     padding-left: 4em;
+     background-position:6% 50%;
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     background-color:transparent;
+}
+ #menu-dropdown ul li a.cta-contact:hover, #menu-dropdown ul li a.cta-contact:focus, #menu-dropdown ul li a.cta-contact:active {
+     background-color: #333;
+}
+
+
+
+
+
+ @media (min-width:40.063em) {
+     h1{
+        font-size:2.5em;
+    }
+     h2{
+        font-size:2em;
+    }
+
+    .content {
+	    padding:2% 4%;
+	}
+     .subsection{
+        width:33.33%;
+        padding-bottom:15px;
+        padding-right:15px;
+        padding-left:15px;
+    }
+     .button.primary{
+        font-size:1em;
+    }
+     .form fieldset legend{
+        font-size:1.5em;
+    }
+     .form fieldset div{
+        margin-bottom:1.5em;
+    }
+     .form fieldset label{
+        font-size:1em;
+    }
+     .form input[type=text]{
+        font-size:1em;
+    }
+}
+ body{
+    background-color:#f4f4f4;
+}
+ header{
+    position:relative;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.2);
+    left:0;
+    top:0;
+    float:left;
+    width:100%;
+    background-color:#132f65;
+    border-bottom:solid 5px #2583c5;
+    opacity:0.95;
+}
+ header h1{
+    float:left;
+    margin-bottom:0;
+    font-size:16px;
+    padding:0;
+}
+ header h1 a{
+    background-image: url('https://images.static.shropshire.gov.uk/newshropshire/v2.0.2/img/sc-logo-v3.svg');
+    background-repeat:no-repeat;
+    background-size: contain;
+    float:left;
+    height: 40px;
+    width: 140px;
+    overflow:hidden;
+    text-indent:10000%;
+    white-space:nowrap;
+    position: relative;
+    margin-top:5px;
+}
+ header h1 > a:link{
+    color:#ffffff;
+}
+ header h1 a:hover,header h1 a:focus{
+    border:none;
+}
+ a.button.govdelivery{
+    float:right;
+    font-size:0.875em;
+    color:#fff;
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/govdelivery-16x16.png);
+    background-repeat:no-repeat;
+    background-position:10% 50%;
+    background-color:#2A79AB;
+    background-size:16px 16px;
+    border:none;
+    line-height:1.4em;
+    box-shadow:none;
+    text-shadow:none;
+    padding:0.55em 0.75em 0.55em 2.5em;
+    margin:7px 5px 7px 0;
+}
+ .button.govdelivery:hover,.button.govdelivery:focus,.button.govdelivery:active{
+    background:#003d5d url(https://images.static.shropshire.gov.uk/external-template/img/govdelivery-16x16.png) 0.55em 0.75em no-repeat;
+    background-position:10% 50%;
+}
+ #search{
+    width:100%;
+    color:#ffffff;
+    float:right;
+    padding:0.5em 0;
+}
+ #search form{
+    position:relative;
+    float:left;
+    width:100%;
+    height:40px;
+}
+ #s{
+    float:left;
+    width:70%;
+    border-radius:0;
+    padding:0.666em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    height:100%;
+    display:block;
+    font-size:1em;
+    color:#555;
+    background-color:#fff;
+    line-height:normal;
+}
+ #s:focus{
+    outline:3px solid #eeb92a;
+}
+ #btnsearch{
+    float:right;
+    height:40px;
+    width:30%;
+    font-size:18px;
+    color:#FFFFFF;
+    border:1px solid #2583C5;
+    background-color:#2583C5;
+    height:100%;
+}
+ #btnsearch:hover,#btnsearch:focus,#btnsearch:active{
+    background-color:#DDF0FA;
+    border:1px solid #6FB7DF;
+    color:#2C2C2C;
+    outline:1px solid #6FB7DF;
+}
+
+.content-container .content {
+	width: 60%;
+	margin-right: 0;
+}
+
+aside {
+	float: right;
+	margin: 2% 3%;
+	width: 28%;
+}
+
+
+
+ #navbar-wrapper{
+    float:left;
+    width:100%;
+    color:#ffffff;
+    border-bottom:medium none;
+    border-top:medium none;
+}
+ #navbar_container{
+    margin:0 auto;
+    max-width:1024px;
+    position:relative;
+}
+ #menu{
+    position:inherit;
+    float:left;
+    color:#fff;
+    background-repeat:no-repeat;
+    background-position:0.5em center;
+    border-radius:7px;
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/menu-icon.png);
+    padding:1em 1.7em 1em 3.25em;
+    text-align:center;
+}
+ #menu.open {
+    background-color: #003d5d;
+    border-radius: 0;
+    background-image: url(https://images.static.shropshire.gov.uk/external-template/img/exit.png);
+    background-repeat: no-repeat;
+    background-position: 0.5em center;
+}
+ #menu.closed{
+    background-color:#7456a5;
+}
+ #menu.closed:hover,#menu.closed:focus,#menu.closed:active{
+    background-color:#453462;
+}
+ #menu-dropdown{
+    position:absolute;
+    width:100%;
+    top:3.2em;
+    background-color:#424242;
+    z-index:10000;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.75);
+}
+ #menu-dropdown.closed{
+    display:none;
+}
+ #menu-dropdown a#back-button{
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/circle-back.png);
+    background-position:3% 50%;
+    background-repeat:no-repeat;
+    opacity:0.4;
+    padding-left:3em;
+}
+ #menu-dropdown a#back-button:hover,#menu-dropdown a#back-button:focus{
+    opacity:1;
+    background-color:#2A79AB;
+}
+ #menu-dropdown ul{
+    font-size:14px;
+    margin-bottom:0;
+}
+ #menu-dropdown ul li a{
+    display:block;
+    line-height:1.5em;
+    color:#fff;
+    border-bottom:1px solid #333;
+    padding:1em 1em 1em 2.5em;
+}
+ #menu-dropdown ul li a:hover,#menu-dropdown ul li a:focus{
+    background-color:#333;
+}
+ #menu-dropdown ul li ul li a:before{
+    content:'\00BB';
+    position:absolute;
+    left:1em;
+    padding-right:12px;
+}
+ #menu-category,#menu-service-area,#menu-content{
+    width:100%;
+    float:left;
+}
+ #menu-service-area li,#menu-content li{
+    background-color:#555;
+}
+ #menu-dropdown a.menu-homepage:before{
+    content:'\2002';
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/home-16x16.png);
+    background-repeat:no-repeat;
+    background-size:12px;
+    background-position:left;
+}
+ #menu.closed{
+    background-color:#00873f;
+    border-radius:0;
+}
+ #menu.closed:hover,#menu.closed:focus,#menu.closed:active{
+    background-color:#003d5d;
+}
+ #menu-service-area li a.external:before{
+    content:url(https://images.static.shropshire.gov.uk/external-template/img/icon-external-link.png);
+    padding-right:5px;
+}
+ #menu-dropdown ul li a.cta-contact{
+    float:left;
+    width:100%;
+    color:#fff;
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/phone.png);
+    background-repeat:no-repeat;
+    background-position:10% 50%;
+    background-size:16px 16px;
+    border:none;
+    padding-left:4em;
+    background-position:6% 50%;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    background-color:transparent;
+}
+ #menu-dropdown ul li a.cta-contact:hover,#menu-dropdown ul li a.cta-contact:focus,#menu-dropdown ul li a.cta-contact:active{
+    background-color:#333;
+}
+ #breadcrumb{
+    list-style:none;
+    display:block;
+    float:left;
+    width:100%;
+}
+ #breadcrumb li{
+    float:left;
+    line-height:2.3em;
+}
+ #breadcrumb li a.breadcrumb-home{
+    float:left;
+    color:#fff;
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/home-breadcrumb.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    padding:1.1em 1.25em;
+    background-color:#e4e4e4;
+    position:relative;
+}
+ #breadcrumb li a.breadcrumb-home:hover,#breadcrumb li a.breadcrumb-home:focus{
+    background-color:#003d5d;
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/home-16x16.png);
+}
+ #breadcrumb li a{
+    background-color:#f4f4f4;
+    background-image:none;
+    border-right:solid 1px #ccc;
+    display:block;
+    padding:0 1em 0 2.25em;
+    position:relative;
+}
+ #breadcrumb li:last-child{
+    padding-left:0;
+}
+ #breadcrumb li a:hover,#breadcrumb li a:focus{
+    background-color:#e4e4e4;
+}
+ #breadcrumb a.breadcrumb-also-in.current{
+    padding-right:2.25em;
+    background-color:#f4f4f4;
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/drop-down.png);
+    background-position:95% 50%;
+    background-size:10px;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+ #breadcrumb a.breadcrumb-also-in.current:hover,#breadcrumb a.breadcrumb-also-in.current:focus{
+    background-color:#e4e4e4;
+}
+ #breadcrumb{
+    margin:1em 0 0;
+}
+ #breadcrumb li a.breadcrumb-home:after{
+    content:" ";
+    display:block;
+    width:0;
+    height:0;
+    border-top:18px solid transparent;
+    border-bottom:18px solid transparent;
+    border-left:25px solid #e4e4e4;
+    position:absolute;
+    top:0;
+    right:-25px;
+    z-index:2;
+}
+ #breadcrumb li a.breadcrumb-home:hover:after{
+    border-left:25px solid #003d5d;
+}
+ #breadcrumb li a.breadcrumb-home:hover:before{
+    border-left:none;
+}
+ #breadcrumb li a:before{
+    content:" ";
+    display:block;
+    width:0;
+    height:0;
+    border-top:18px solid transparent;
+    border-bottom:18px solid transparent;
+    border-left:25px solid #cdcdcd;
+    position:absolute;
+    top:0;
+    right:-28px;
+    z-index:1;
+}
+ #breadcrumb li a:after{
+    content:" ";
+    display:block;
+    width:0;
+    height:0;
+    border-top:18px solid transparent;
+    border-bottom:18px solid transparent;
+    border-left:25px solid #f4f4f4;
+    position:absolute;
+    top:0;
+    right:-25px;
+    z-index:2;
+}
+ #breadcrumb li:last-of-type a:before,#breadcrumb li:last-of-type a:after{
+    display:none;
+}
+ #breadcrumb li a:hover:after{
+    border-left:25px solid #e4e4e4;
+}
+ #breadcrumb li a:hover:before{
+    border-left:none;
+}
+ #menu-also-in{
+    float:left;
+    width:100%;
+    padding:0.666em 1.7em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    background-color:#f4f4f4;
+    display:none;
+}
+ #menu-also-in li{
+    float:left;
+    display:inline-block;
+    width:100%;
+}
+ #menu-also-in li:before{
+    content:'\25BB';
+    padding-right:12px;
+}
+ ul li.contact{
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/contact.png);
+    background-repeat:no-repeat;
+    padding-left:32px;
+    margin:0.5em 0;
+}
+ ul li.contact.email{
+    background-position:-88px -76px;
+}
+ ul li.contact.telephone{
+    background-position:-88px -108px;
+}
+ footer{
+    float:left;
+    width:100%;
+    padding:1.7em 0 4em;
+    background-color:#2c2c2c;
+    color:#ffffff;
+}
+ section.footer-service-contact{
+    width:100%;
+    float:left;
+    padding:0 5% 2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    background-color:#fff;
+}
+ footer .footer-links{
+    width:100%;
+}
+ .footer-links ul{
+    float:left;
+    width:100%;
+    font-size:0.75em;
+    margin-bottom:1em;
+}
+ .footer-links ul li a{
+    color:#ffffff;
+}
+ .footer-links ul li a:hover,.footer-links ul li a:focus,.footer-links ul li a:active{
+    text-decoration:underline;
+}
+ footer .footer-links p.footer-link{
+    width:100%;
+    padding:0;
+    margin:0;
+    float:left;
+}
+ footer .footer-links .button.map{
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/map.png);
+    background-repeat:no-repeat;
+    background-position:0 center;
+    width:auto;
+    color:#ffffff;
+    padding-left:1.5em;
+    background-color:transparent;
+}
+ footer .footer-links .button.map:hover,footer .footer-links .button.map:focus{
+    text-decoration:underline;
+}
+ footer .footer-links .button.feedback{
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/feedback.png);
+    background-repeat:no-repeat;
+    background-position:0 center;
+    color:#ffffff;
+    padding:0.33em 1em 0.33em;
+    padding-left:1.5em;
+    background-color:transparent;
+}
+ footer .footer-links .button.feedback:hover,footer .footer-links .button.feedback:focus{
+    text-decoration:underline;
+    border:none;
+    background-color:transparent;
+}
+footer .footer-links .button.govroam {
+    background-image: url(https://images.static.shropshire.gov.uk/external-template/img/govroam-logo-white-140x80.png);
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    height: 80px;
+    width: 140px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+    footer .footer-links .button.govroam:hover, footer .footer-links .button.govroam:focus {
+        background-image: url(https://images.static.shropshire.gov.uk/external-template/img/govroam-logo-140x80.png);
+        background-repeat: no-repeat;
+        background-position: 0 center;
+    }
+ footer .copy{
+    float:left;
+    width:100%;
+    text-align:center;
+    padding-top:2em;
+    color:#ffffff;
+}
+ footer .copy a{
+    color:#87ceeb;
+}
+ footer .copy a:hover,footer .copy a:focus{
+    text-decoration:underline;
+}
+ footer .footer-links ul li{
+    float:left;
+    width:100%;
+    margin:0;
+}
+ footer .btn-facebook,footer .btn-twitter{
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/facebook-icon.png);
+    background-repeat:no-repeat;
+    padding-left:2em;
+    padding-bottom:0.333em;
+}
+ footer .btn-facebook{
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/facebook-icon.png);
+}
+ footer .btn-twitter{
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/twitter-icon.png);
+}
+ article{
+    float:left;
+    width:100%;
+}
+ .background{
+	margin-top: -3.25em;
+    background-color:#fff;
+}
+ .sc-container,#container-breadcrumb{
+    max-width:1024px;
+    margin:0 auto;
+    background-color:#ffffff;
+    }
+
+ .content-container.wrapper{
+    padding:0;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+ .content-container,.content-container-hotlinks{
+    padding-top:1em;
+    float:left;
+    width:100%;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    background-color:#fff;
+}
+ .content-container-hotlinks{
+    padding: 2% 4% 2em;
+}
+ .content-container h1{
+    margin:0;
+    padding:0;
+    padding-top:1.7em;
+    float:left;
+    width:100%;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    text-align:center;
+}
+ .form{
+    float:left;
+    width:100%;
+    padding:0 5% 2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+ .key-services{
+    float:left;
+    width:100%;
+    padding:1.5em 4%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+ .key-services div{
+    float:left;
+    width:100%;
+}
+ .key-services a{
+    position:relative;
+    display:block;
+    background-color:#fafafa;
+    padding:1em 0;
+    border-bottom:1px solid #e9e9e9;
+    margin-bottom:1em;
+}
+ .key-services a h2{
+    font-size:16px;
+    line-height:32px;
+    font-weight:bold;
+    color:#555;
+    padding-left:64px;
+    margin-top:0;
+    margin-bottom:0;
+}
+ .key-services .green:hover h2,.key-services .green:focus h2,.key-services .green:active h2{
+    color:#24a230;
+}
+ .key-services .red:hover h2,.key-services .red:focus h2,.key-services .red:active h2{
+    color:#b80000;
+}
+ .key-services .blue:hover h2,.key-services .blue:focus h2,.key-services .blue:active h2{
+    color:#2e84bc;
+}
+ .key-services .purple:hover h2,.key-services .purple:focus h2,.key-services .purple:active h2{
+    color:#bd2d8d;
+}
+ .key-services a span{
+    position:absolute;
+    display:block;
+    left:1em;
+    top:1em;
+    height:32px;
+    width:32px;
+    background-image:url(https://images.static.shropshire.gov.uk/external-template/img/key-services.png);
+}
+ .key-services .find.blue span{
+    background-position:-256px -32px;
+}
+ .key-services .alert.purple span{
+    background-position:-352px -288px;
+}
+ .key-services .documents.green span{
+    background-position:-192px -416px;
+}
+ .key-services .business.red span{
+    background-position:-224px -1696px;
+}
+ .key-services-background{
+    background-repeat:no-repeat;
+}
+ .map{
+    float:left;
+    width:100%;
+}
+ .section-banner{
+    float:left;
+    width:100%;
+    background-size:cover;
+    background-position:center;
+}
+ @media all and (min-width: 40em) {
+     .background{
+        background-color:transparent;
+        background-image:url(https://images.static.shropshire.gov.uk/external-template/img/full-bg.jpg);
+        background-repeat:no-repeat;
+        background-size:100%;
+        margin-top: -4.5em;
+    }
+     header{
+        z-index:1000;
+        height:60px;
+    }
+    header h1 a {
+    	background-image: url('https://images.static.shropshire.gov.uk/newshropshire/v2.0.2/img/sc-logo-swoosh-v1_250x80.svg');
+    	height: 76px;
+    	width: 240px;
+    	left: -50px;
+        margin-top: 0;
+    }
+    .sc-container {    
+        margin-top: 20px;
+    }
+    #navbar-wrapper {
+        margin-top:20px;
+    }
+     #search{
+        width:50%;
+    }
+     .button.govdelivery{
+        margin-bottom:0px;
+    }
+     footer .footer-links{
+        float:left;
+        width:50%;
+    }
+     .footer-links ul{
+        width:50%;
+        margin-right:20px;
+        border-right:solid 1px #565656;
+    }
+     footer .footer-links p.footer-link{
+        width:45%;
+    }
+     .content-container{
+        border-top-left-radius:7px;
+        border-top-right-radius:7px;
+    }
+     .content-container-hotlinks{
+        border-bottom-left-radius:7px;
+        border-bottom-right-radius:7px;
+    }
+     .content-container h1{
+        padding-top:0;
+        margin-bottom:0.333em;
+    }
+     #menu-dropdown{
+        max-width:1024px;
+    }
+     #menu-dropdown ul{
+        font-size:1em;
+    }
+     #menu-category{
+        float:left;
+        width:33.333%;
+    }
+     #menu-service-area{
+        float:left;
+        width:33.333%;
+    }
+     #menu-content{
+        float:left;
+        width:33.333%;
+    }
+     #menu-dropdown ul li a{
+        position:relative;
+        padding:0.5em 1em 0.5em 2.5em;
+    }
+     #menu-dropdown ul li a.cta-contact{
+        background-position:3% 50%;
+    }
+     #menu-service-area li,#menu-content li{
+        background-color:inherit;
+    }
+     #menu-also-in li{
+        width:33.33%;
+    }
+     a.menu-homepage{
+        background-color:#2A79AB;
+    }
+     .home{
+        float:left;
+        width:100%;
+    }
+     .key-services.more a h2{
+        font-size:1.125em;
+    }
+     .key-services.more div{
+        clear:both;
+        width:60%;
+    }
+     .key-services.more a{
+        background-color:rgba(255, 255, 255, 0.9);
+    }
+     .section-banner{
+        border-top-right-radius:7px;
+        border-top-left-radius:7px;
+    }
+     .home{
+        background:#237fba;
+        background-image:url(https://images.static.shropshire.gov.uk/external-template/img/home_bg.png);
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+     #menu-dropdown {
+         max-width: 1024px;
+    }
+     #menu-dropdown ul {
+         font-size: 1em;
+    }
+     #menu-category {
+         float: left;
+         width: 33.333%;
+    }
+     #menu-service-area {
+         float: left;
+         width: 33.333%;
+    }
+     #menu-content {
+         float: left;
+         width: 33.333%;
+    }
+     #menu-dropdown ul li a {
+         position: relative;
+         padding: 0.5em 1em 0.5em 2.5em;
+    }
+     #menu-dropdown ul li.active a {
+         background-color: #555;
+    }
+     #menu-category li.active a::before, #menu-service-area li.active a::before {
+         content: '\00BB';
+    }
+     #menu-dropdown ul li a.cta-contact {
+         background-position:3% 50%;
+    }
+     #menu-category li.active a::before, #menu-service-area li.active a::before {
+         background-image: none;
+    }
+     #menu-service-area li, #menu-content li {
+         background-color: inherit;
+    }
+     #menu-also-in li {
+         width:33.33%;
+    }
+    .subsection {
+        width: 30%;
+        padding-bottom: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin: 0 1.5% 3% 1.5%;
+    }
+}
+ @media screen and (min-width: 60em) {
+     footer .footer-links{
+        width:60%;
+    }
+     footer .footer-links ul li{
+        display:inline-block;
+        margin-right:16px;
+    }
+     #search{
+        width:50%;
+    }
+     #s{
+        width:80%;
+    }
+     #btnsearch{
+        width:20%;
+    }
+     .key-services.more div{
+        width:45%;
+    }
+}
